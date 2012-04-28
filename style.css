@@ -11,9 +11,7 @@
 
 .container
 {
-/*  width: 850px;*/
 	margin: 0 auto;
-/*  padding: 0 20px;*/
 }
 
 .other,
@@ -320,6 +318,26 @@ article img
   width: 55%;
  }
 }
+@media all and (min-width: 660px) {
+  .other .container {
+    padding: 0 20px;
+  }
+  .other section {
+    width: 47%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+  }
+  .other section.edge {
+    margin-right: 0;
+  }
+  .other section.top {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+
 @media all and (min-width: 860px) {
   .featured section, 
   nav {
@@ -338,5 +356,7 @@ article img
   .featured aside {
     margin-bottom: 0;
   }
-  
+  .other .container {
+    max-width: 860px;
+  }
 }
