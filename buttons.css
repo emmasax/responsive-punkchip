@@ -1,0 +1,63 @@
+img.buttons
+{
+	margin-top: 0;
+}
+
+button.simple,
+button.simple-bg,
+button.gradient,
+button.rounded,
+button.clipped,
+button.final
+{
+	background-color: #e4365b;
+	border: 3px solid #f2f2f2;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serf;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 7px 21px 6px;
+}
+
+button.simple-bg,
+button.gradient,
+button.rounded,
+button.clipped,
+button.final
+{
+	background: url(http://www.punkchip.com/wp-content/uploads/2011/02/btn-bg.png) repeat-x bottom right;
+}
+
+button.gradient,
+button.rounded,
+button.clipped,
+button.final
+{
+    background-image: linear-gradient(-90deg, #e4365b 20%, #850934 90%, #850934 5%);
+    background-image: -moz-linear-gradient(-90deg, #e4365b 20%, #850934 90%, #850934 5%);
+    background-image: -webkit-gradient(linear, 0% 20%, 0% 90%, from(#e4365b), to(#850935), color-stop(0.9,#850935));
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e4365b', EndColorStr='#850935');
+}
+
+button.rounded,
+button.clipped,
+button.final
+{
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+button.clipped,
+button.final
+{
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+button.final
+{
+	-moz-box-shadow: 2px 2px 3px #888;
+	-webkit-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+}

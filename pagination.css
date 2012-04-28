@@ -1,0 +1,30 @@
+.pagination
+{
+	clear: left;
+	border-top: 1px solid #333;
+	padding-top: 5px;
+	overflow: hidden;
+}
+
+.pagination.paged
+{
+	border-top: 0;
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+.pagination li
+{
+	text-align: left;
+}
+
+.pagination li#next
+{
+	float: right;
+}
+
+.pagination li#previous
+{
+	float: left;
+}

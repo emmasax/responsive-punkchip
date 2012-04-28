@@ -1,0 +1,65 @@
+.featured
+{
+	clear: left;
+	overflow: hidden;
+}
+
+.featured
+{
+	font-family: geneva, arial, sans-serif;
+	margin-right: 0;
+	/*min-height: 250px;*/
+/*  width: 850px;*/
+/*  margin: 0 auto 30px;*/
+  
+	float: none;
+}
+
+.featured section
+{
+/*  margin-bottom: 0;*/
+/*  width: 600px;*/
+  padding: 0 10px;
+}
+
+.featured h2
+{
+	font-size: 30px;
+}
+
+.featured aside
+{
+	background-color: #e5e5e5;
+	border-left: 10px solid #ccc;
+	display: block;
+	padding: 10px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	line-height: 1.4;
+}
+
+.featured aside p
+{
+	margin-bottom: 20px;
+}
+
+.featured aside,
+.featured .networking,
+.featured .post-categories
+{
+	overflow: hidden;
+}
+
+.featured .post-categories
+{
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 3px 0;
+	text-align: right;
+}
+
+.featured .post-categories,
+.featured .post-categories a
+{
+	color: #666;
+}

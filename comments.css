@@ -1,0 +1,100 @@
+.comments
+{
+	clear: left;
+}
+
+.comments ul
+{
+/*  width: 550px;*/
+}
+
+.comments p
+{
+	font-size: 13px; 
+	margin-top: 10px;
+}
+
+.comments #postcomment
+{
+	margin-top: 30px;
+}
+
+.comments .comment-list li
+{
+	background-color: rgba(255, 255, 255, 0.1);
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.comments cite
+{
+	display: inline;
+}
+
+.comments .user img,
+.comments img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.comments .user p
+{
+	margin-top: 0;
+	font-size: 13px;
+}
+
+.comments h2 span
+{
+	font-size: 13px;
+}
+
+.comments blockquote
+{
+	background: #666;
+}
+
+.comments p input,
+.comments p textarea
+{
+	display: block;
+	width: 100%;
+}
+
+.comments button {
+  padding: 3px 10px 5px;
+  background-color: #eee;
+  border-radius: 8px
+}
+
+.related-comments
+{
+/*  float: left;
+  margin-right: 20px;
+*//*  width: 550px;*/
+  padding: 0 15px;
+}
+
+.related-tweets
+{
+	overflow: hidden;
+}
+
+.related-tweets ul
+{
+/*  width: 280px;*/
+}
+
+.related-tweets li
+{
+	background-color: #333;
+	margin-top: 20px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.related-tweets time
+{
+	display: block;
+	padding-bottom: 10px;
+}

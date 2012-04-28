@@ -1,0 +1,26 @@
+nav
+{
+	margin-top: 127px;
+	text-align: center;
+	margin-bottom: 30px;
+	display: block;
+}
+
+nav li
+{
+	display: inline;
+	font-family: Lucida Grande, georgia, serif;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+nav li a
+{
+	color: #ae194b;
+}
+
+nav .search
+{
+	display: none;
+}

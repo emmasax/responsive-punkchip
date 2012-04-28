@@ -1,0 +1,36 @@
+.category h2
+{
+	margin-bottom: 30px;
+}
+
+.category .other .post
+{
+	border-top: 2px solid #333;
+	padding-top: 5px;
+	margin-bottom: 30px;
+}
+
+.category .post h2
+{
+	margin-bottom: 0;
+}
+
+.category .post h3
+{
+	font-size: 18px;
+	font-weight: normal;
+	padding-right: 220px;
+}
+
+.category .post p
+{
+	font-size: 12px;
+	float: right;
+	margin-top: 0;
+}
+
+.category .post p,
+.category .post p a
+{
+	color: #999;
+}

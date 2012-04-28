@@ -1,0 +1,116 @@
+footer,
+aside section
+{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+/*  width: 850px;*/
+	margin: 0 auto;
+	color: #333;
+	text-align: center;
+}
+
+aside section
+{
+	text-align: left;
+	font-family: geneva, arial, sans-serif;
+	font-weight: normal;
+	background-color: #e5e5e5;
+/*  width: 250px;*/
+/*  float: right;
+  clear: right;
+*/	padding: 10px;
+  overflow: hidden;
+	border-left: 10px solid #ccc;
+	margin-bottom: 20px;
+}
+
+aside section h3
+{
+	font-size: 13px;
+	margin-top: 0;
+	color: #333;
+	text-transform: none;
+}
+
+aside section li
+{
+	border-top: 1px dotted #ccc;
+	margin-top: 5px;
+	padding-top: 2px;
+	font-size: 13px;
+}
+
+aside section .crumbs
+{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc;
+}
+
+aside section .crumbs li
+{
+	border-top: 0;
+}
+
+aside .twitter a
+{
+	font-size: 10px;
+}
+
+aside .twitter ul
+{
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+}
+
+aside .twitter li
+{
+	word-wrap: break-word;
+}
+
+aside .twitter p a
+{
+	font-size: 13px;
+}
+
+aside .networking {
+  margin-bottom: 10px;
+}
+
+aside .networking li
+{
+	float: left;
+	text-align: center;
+  width: 24%;
+}
+
+aside p {
+  font-style: italic;
+  
+}
+  
+
+aside .networking li,
+aside .networking li img
+{
+	border: 0;
+}
+
+footer
+{
+	clear: both;
+	display: block;
+}
+
+footer p{
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.page footer
+{
+	border-top: 5px solid #ccc;
+/*  width: auto;*/
+}
