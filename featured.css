@@ -9,16 +9,12 @@
 	font-family: geneva, arial, sans-serif;
 	margin-right: 0;
 	/*min-height: 250px;*/
-/*  width: 850px;*/
-/*  margin: 0 auto 30px;*/
   
 	float: none;
 }
 
 .featured section
 {
-/*  margin-bottom: 0;*/
-/*  width: 600px;*/
   padding: 0 10px;
 }
 
@@ -40,7 +36,7 @@
 
 .featured aside p
 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .featured aside,
