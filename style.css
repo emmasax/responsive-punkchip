@@ -302,12 +302,26 @@ article img
   article,
   .page .post,
   .featured section, 
-  nav
+  nav, 
+  .related-comments
   {
     padding: 0 20px;
   }
-  .featured aside {
+  aside {
     margin: 0 15px 20px;
+  }
+  .single aside section {
+    display: block;
+    width: 41%;
+    float: left;
+  }
+  .single aside section.pagination {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .single aside section.most-viewed {
+    clear: both;
+    width: 93%;
   }
 }
 
@@ -317,7 +331,26 @@ article img
   float: left;
   width: 55%;
  }
+ .single aside section {
+   overflow: hidden;
+ }
 }
+
+@media all and (min-width: 600px) {
+  .single .post {
+    float: left;
+    width: 55%;    
+  }
+  .single aside {
+    overflow: hidden;
+  }
+  .single aside section, .single aside section.most-viewed,   .single aside section.pagination {
+    width: auto;
+    margin-right: 0;
+    float: none;
+  }
+}
+
 @media all and (min-width: 660px) {
   .other .container {
     padding: 0 20px;
@@ -339,17 +372,19 @@ article img
 }
 
 @media all and (min-width: 860px) {
-  .featured section, 
+  .featured section, .single .post,
   nav {
-    padding: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
-  .featured section {
+  .featured section, .single .post {
     margin-right: 30px;
     width: 65%;
     max-width: 600px; 
   }
-  .featured {
-    max-width: 860px;
+  .featured, .single .container {
+    max-width: 960px;
     margin: 0 auto 30px;
     width: 100%;
   }
@@ -357,6 +392,12 @@ article img
     margin-bottom: 0;
   }
   .other .container {
-    max-width: 860px;
+    max-width: 960px;
   }
 }
+/*@media all and (min-width: 970px) {
+  .featured section, .single .post,
+  nav {
+    padding: 0;
+  }
+}*/

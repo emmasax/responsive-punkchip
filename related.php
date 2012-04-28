@@ -41,7 +41,7 @@
 <p><a href="http://wai-aria.punkchip.com/">View WAI-ARIA: Information &amp; examples</a></p>
 </section>
 
-	<section>
+	<section class="most-viewed">
 		<h3>Most viewed</h3>
 		<ul>
 			<li><a href="http://www.punkchip.com/2011/03/why-support-javascript-disabled/">Why we should support users with no Javascript</a></li>
