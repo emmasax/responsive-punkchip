@@ -1,4 +1,4 @@
-/* Theme Name: Pink swirls */
+/* Theme Name: Responsive */
 
 @import url("base.css");
 @import url("nav.css");
@@ -30,12 +30,9 @@
 section,
 article
 {
-	font-size: 13px;
+	font-size: 14px;
 	margin-bottom: 30px;
 	line-height: 1.4;
-/*  width: 415px;*/
-/*  float: left;*/
-/*  margin-right: 20px;*/
 	display: block;
 }
 
@@ -43,6 +40,7 @@ article
 {
 	margin-right: 0;
 	padding-right: 20px;
+	line-height: 1.5;
 	
 }
 
@@ -57,7 +55,6 @@ article a.more-link
 article,
 .page .post
 {
-/*  width: 550px;*/
   padding: 0 15px;
 }
 
@@ -76,11 +73,6 @@ article h3,
 	text-align: right;
 }
 
-/*.edge
-{
-  padding-right: 0 !important;
-}
-*/
 section blockquote
 {
 	color: #333;
@@ -248,7 +240,7 @@ article img
 .other section
 {
 	border-top: 5px solid #333;
-	padding: 20px 20px 0;
+	padding: 0 20px;
 }
 
 .other section.first {
@@ -256,22 +248,16 @@ article img
   padding-top: 0;
 }
 
-.other section.top
-{
-/*  border-top: 0;*/
-/*  padding-top: 0;*/
-/*  margin-bottom: 20px;*/
-}
-
 .featured header p, .other header p {
   font-size: 11px;
   color: #bbb;
   text-transform: uppercase;
-  float: right;
   margin-left: 10px;
+  text-align: right;
 }
 .featured header p {
   color: #999;
+  margin-top: 0;
 }
 .other section p a
 {
@@ -293,8 +279,11 @@ article img
   h2 {
     font-size: 24px;
   }
+  .category .post h3 {
+    font-size: 18px;
+  }
   nav li {
-    font-size: 16px;
+    font-size: 18px;
   }
   p, li {
     font-size: 14px;
@@ -323,6 +312,9 @@ article img
     clear: both;
     width: 93%;
   }
+  .comments p input {
+    height: 20px;
+  }
 }
 
 @media all and (min-width: 580px) {
@@ -333,6 +325,15 @@ article img
  }
  .single aside section {
    overflow: hidden;
+ }
+ .featured header p, .other header p {
+   float: right;
+ }
+ .other section {
+   padding-top: 20px;
+ }
+ .featured header p {
+   margin-top: 10px;
  }
 }
 
@@ -348,6 +349,14 @@ article img
     width: auto;
     margin-right: 0;
     float: none;
+  }
+  .related-comments {
+    float: left;
+    width: 55%;
+  }
+  .category .post p {
+    float: right;
+    padding-left: 10px;
   }
 }
 
@@ -392,12 +401,13 @@ article img
     margin-bottom: 0;
   }
   .other .container {
-    max-width: 960px;
+    max-width: 920px;
   }
+  .related-comments {
+    width: 60%;
+  }
+  #commentform {
+    width: 80%;
+  }
+  
 }
-/*@media all and (min-width: 970px) {
-  .featured section, .single .post,
-  nav {
-    padding: 0;
-  }
-}*/

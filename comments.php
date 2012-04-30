@@ -23,13 +23,15 @@
 	<div class="container">
 	
 		<div class="related-comments">
-			<h2 id="respond">Comments</h2>
 		
-			<?php if ( have_comments() ) : ?>
+			<?php if ( have_comments() ) { ?>
+  			<h2 id="respond">Comments</h2>
 				<ul class="comment-list">
 					<?php wp_list_comments(); ?><!--'callback=my_comment'-->
 				</ul>
-			<?php endif; ?>
+			<?php } else { ?>
+			  <p>No comments.</p>
+			<?php } ?>
 		
 <?php if (comments_open( $id )) { ?> 
 			<h2 id="postcomment"><?php _e("Add your comment"); ?></h2>

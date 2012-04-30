@@ -1,13 +1,15 @@
 .category h2
 {
-	margin-bottom: 30px;
+  padding: 10px 10px 20px;
 }
-
+.category .other {
+  padding-top: 0;
+}
 .category .other .post
 {
 	border-top: 2px solid #333;
-	padding-top: 5px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	padding: 10px;
 }
 
 .category .post h2
@@ -17,15 +19,13 @@
 
 .category .post h3
 {
-	font-size: 18px;
 	font-weight: normal;
-	padding-right: 220px;
 }
 
 .category .post p
 {
 	font-size: 12px;
-	float: right;
+/*  float: right;*/
 	margin-top: 0;
 }
 

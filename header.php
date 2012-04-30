@@ -5,7 +5,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="author" content="Emma Sax" />
 	<meta name="keywords" content="Accessibility, Web standards, Javascript, jQuery, CSS, HTML, HTML5" />
-	<style media="screen">
+  <meta content='True' name='HandheldFriendly'>
+  <meta content='320' name='MobileOptimized'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+	<style media="all">
 		@import url( <?php echo get_settings('siteurl'); ?>/wp-content/themes/new/style.css );
 	</style>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/ico">
